@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*HEADER*/
+
+#moc {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    display: inline;
+}
+
+header div img {
+    margin-top: auto;
+    vertical-align: baseline;
+}
+
+  ul li.navegacion a {
+    color: white;
+    display: inline;
+    text-decoration: none;
+    margin: 0;
+
+  }
+
+  ul li.navegacion {
+    display: inline;
+    margin: 20px;
+  }
+
+  header {
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(94, 139, 124);
+    text-align: center;
+  }
+  
+/*SECTIONS*/
+
+  .flex-container {
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .flex-container .flex-item {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .flex-container .flex-item img {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+  }
+
+
+  section {
+    background-color: #08df95;
+    padding: 20px;
+    margin: 10px 0px;
+  }
+
+  .titulo {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+
+  }
+
+  section.tit {
+    color: blue;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    border: solid 10px gray;
+    padding: 100px 10px;
+  }
+
+  section.tit div a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .figura1 {
+    width: 350px;
+    height: 500px;
+    color: blue;
+    background-color: #08df95;
+    margin: 25px;
+    float: left;
+  }
+
+  .figura2 {
+    width: 350px;
+    height: 500px;
+    color: blue;
+    background-color: #08df95;
+    margin: 25px;
+    float: left;
+  }
+
+  .figura3 {
+    width: 350px;
+    height: 500px;
+    color: blue;
+    background-color: #08df95;
+    margin: 25px;
+    float: left;
+  }
+
+  body {
+    width: auto;
+    margin: auto;
+    background-color:rgb(44, 42, 42)
+  }
+
+  ul {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  div {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+/*FOOTER*/
+
+  footer {
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(112, 155, 140);
+  }
+
+   ul.foo li {
+    list-style: none;
+  }
+
+  ul li.navegacion2 {
+    display: inline;
+    margin: 20px;   
+  }
+
+  ul li.navegacion2 a {
+    color: white;
+    text-decoration: none;
+  }
+
+  
